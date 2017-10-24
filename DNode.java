@@ -1,4 +1,9 @@
-public class DNode<T> {
+/**
+ * class implementing a double-linked node
+ * @author Talor Anderson
+ * @version 1.0
+ */
+ public class DNode<T> {
   T data;
   DNode front;
   DNode back;

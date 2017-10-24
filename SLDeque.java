@@ -1,3 +1,8 @@
+/**
+ * class implementing a double-ended ADT Queue using single-linked nodes
+ * @author Talor Anderson
+ * @version 1.0
+ */
 public class SLDeque<T> implements DequeInterface<T> {
   SNode front = null;
   SNode back =  null;

@@ -1,4 +1,9 @@
-public class SNode<T> {
+/**
+ * class implementing a single-linked node
+ * @author Talor Anderson
+ * @version 1.0
+ */
+ public class SNode<T> {
   T data;
   SNode link;
   
